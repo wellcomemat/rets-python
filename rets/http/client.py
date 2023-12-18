@@ -26,7 +26,7 @@ class RetsHttpClient:
                  auth_type: str = 'digest',
                  user_agent: str = 'rets-python/0.3',
                  user_agent_password: str = '',
-                 rets_version: str = '1.7.2',
+                 rets_version: str = '1.8',
                  capability_urls: str = None,
                  cookie_dict: dict = None,
                  use_get_method: bool = False,
