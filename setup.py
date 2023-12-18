@@ -7,7 +7,7 @@ if sys.version_info < (3, 5):
     sys.exit(1)
 
 
-long_desc = 'Python 3 client for the Real Estate Transaction Standard (RETS) Version 1.7.2'
+long_desc = 'Python 3 client for the Real Estate Transaction Standard (RETS) Version 1.8'
 
 install_requires = [
     'requests>=2.12.3',
@@ -34,7 +34,7 @@ packages = [
 
 setup(
     name='rets-python',
-    version='0.4.10',
+    version='0.4.11',
     description='rets-python',
     long_description=long_desc,
     author='Martin Liu',
